@@ -5,13 +5,14 @@ const jobSchema = new Schema({
     title : {
         type : String,
         required: true,
-        minLength : 7
     },
     
     description : {
         type : String,
         required : true
-    },},
+    },
+    
+},
     {timestamps : true}
 )
 
