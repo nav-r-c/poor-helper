@@ -8,9 +8,9 @@ function Navbar(props) {
                 <a href = "/"><h1 className='text-[2rem] px-5'>{props.appTitle}</h1></a>
                 <ul className='flex items-center mx-2 text-[1rem]'>
                     <li className='mx-2'><a href = "/">Home</a></li>
-                    <li className='mx-2'><a href = "/">Jobs</a></li>
-                    <li className='mx-2'><a href = "/">Charity</a></li>
-                    <li className='mx-2'><a href = "/">Insure Policies</a></li>
+                    <li className='mx-2'><a href = "/jobs">Jobs</a></li>
+                    <li className='mx-2'><a href = "/charity">Charity</a></li>
+                    <li className='mx-2'><a href = "/insurance">Insurance Policies</a></li>
                 </ul>
             </div>
             
