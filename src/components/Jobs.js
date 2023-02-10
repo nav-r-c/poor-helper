@@ -1,8 +1,14 @@
 import React from 'react'
+import Card from './Card'
 
 function Jobs() {
   return (
-    <div>Jobs</div>
+    <div className='flex justify-center'>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+    </div>
   )
 }
 
