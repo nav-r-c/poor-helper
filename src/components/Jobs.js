@@ -7,7 +7,6 @@ function Jobs() {
         <Card />
         <Card />
         <Card />
-        <Card />
     </div>
   )
 }

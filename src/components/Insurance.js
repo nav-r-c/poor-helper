@@ -2,7 +2,9 @@ import React from 'react'
 
 function Insurance() {
   return (
-    <div>Insurance</div>
+    <div>
+        <h1 className='text-[3rem] font-bold text-center'>Plans</h1>
+    </div>
   )
 }
 
