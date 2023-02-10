@@ -6,12 +6,12 @@ function Navbar(props) {
     <div>
         <nav className='flex justify-between bg-[#F5F5F5] py-2'>
             <div className='flex'>
-                <a href = "/"><h1 className='text-[2rem] px-5'>{props.appTitle}</h1></a>
+                <Link to = "/"><h1 className='text-[2rem] px-5'>{props.appTitle}</h1></Link>
                 <ul className='flex items-center mx-2 text-[1rem]'>
-                    <li className='mx-2'><a href = "/">Home</a></li>
-                    <li className='mx-2'><a href = "/jobs">Jobs</a></li>
-                    <li className='mx-2'><a href = "/charity">Charity</a></li>
-                    <li className='mx-2'><a href = "/insurance">Insurance Policies</a></li>
+                    <li className='mx-2'><Link to = "/">Home</Link></li>
+                    <li className='mx-2'><Link to = "/jobs">Jobs</Link></li>
+                    <li className='mx-2'><Link to = "/charity">Charity</Link></li>
+                    <li className='mx-2'><Link to = "/insurance">Insurance Policies</Link></li>
                 </ul>
             </div>
             

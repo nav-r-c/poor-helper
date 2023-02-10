@@ -9,17 +9,18 @@ import Insurance from './components/Insurance';
 
 function App() {
 	return (
+		<Router>
 		<div>
 			<Navbar />
-			<Router>
 				<Routes>
 					<Route path = "/" element = {<Home />} />
 					<Route path = "/jobs" element = {<Jobs />} />
 					<Route path = "/charity" element = {<Charity />} />
 					<Route path = "/insurance" element = {<Insurance />} />
 				</Routes>
-			</Router>
 		</div>
+		</Router>
+
 	)
 }
 
