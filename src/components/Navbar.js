@@ -15,7 +15,14 @@ function Navbar(props) {
                 </ul>
             </div>
 
-            <div className='flex text-[1.2em]'>
+            <div className='flex text-[1.2em] items-center'>
+                
+                <select className='px-5 py-2 border-2 rounded-lg bg-white'>
+                    <option>English</option>
+                    <option>हिंदी</option>
+                    <option>ಕನ್ನಡ</option>
+                </select>
+
                 <p className='px-2'><Link to = "/login">Login</Link></p>
                 <p> | </p>
                 <p className='px-2'><Link to = "/register">Register</Link></p>
