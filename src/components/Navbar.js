@@ -3,7 +3,7 @@ import React from 'react';
 function Navbar() {
   return (
     <div>
-        <nav className='flex justify-between bg-[#F5F5F5]'>
+        <nav className='flex justify-between bg-[#F5F5F5] py-2'>
             <div className='flex'>
                 <a href = "/"><h1 className='text-[2rem] px-5'>App Title</h1></a>
                 <ul className='flex items-center mx-2 text-[1rem]'>
