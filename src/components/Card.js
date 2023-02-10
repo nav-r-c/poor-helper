@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card(props) {
     return (
-        <div className='w-[22%] h-[35em] bg-[#F5F5F5] rounded-lg m-5'>
+        <div className='w-[22%] h-[30em] bg-[#F5F5F5] rounded-lg m-5'>
             <div>
                 <img src = "https://wallpaperaccess.com/full/2122578.jpg" alt = "card photo" className='w-[100%] rounded-t-lg'></img>
             </div>
@@ -12,7 +12,8 @@ function Card(props) {
             </div>
             
             <div>
-                <button type = "submit" className='border-2 px-5 py-2 mx-auto rounded-md border-[#3A3A3A] transition ease-in-out hover:bg-[#3A3A3A] hover:text-white'>Know More</button>
+                {/* <input className='border-2 px-5 py-2 mx-auto rounded-md border-[#3A3A3A] transition ease-in-out hover:bg-[#3A3A3A] hover:text-white'>Know More</input> */}
+                <button className='border-2 px-5 py-2 mx-auto rounded-md border-[#3A3A3A] transition ease-in-out hover:bg-[#3A3A3A] hover:text-white'>Know More</button>
             </div>
        
         </div>
