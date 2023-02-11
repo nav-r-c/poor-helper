@@ -6,8 +6,8 @@ function Register() {
 	const [name, setName] = useState("");
 	const [phoneNumber, setPhoneNumber] = useState();
 	const [password, setPassword] = useState("");
-	const [type, setType] = useState("Male");
-	const [gender, setGender] = useState("");
+	const [type, setType] = useState("Person");
+	const [gender, setGender] = useState("Male");
 	const [address, setAddress] = useState("");
 
 	const onSubmit = (e) => {
@@ -22,10 +22,9 @@ function Register() {
 			address : address
 		}
 
-		console.log(user);
-
 		axios.post("http://localhost:5000/users/createUser", user)
-			.then(res => console.log(res.data))
+			.then(res => alert(res.data))
+			.catch(err => alert(err))
 
 		setName("");
 		setPhoneNumber();
